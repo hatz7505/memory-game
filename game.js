@@ -39,6 +39,9 @@ let card1, card2, firstCard1, firstCard2, secondCard1, secondCard2
 
 function flipCard(card) {
     var pic = card.childNodes[1].childNodes[0].src
+    console.log(pic);
+    console.log(pic[46]);
+    console.log(pic[47]);
 
     if (!card.classList.contains('matched') && !card.classList.contains('first')) {
         addCount();
@@ -96,7 +99,7 @@ function finished() {
     finished.classList.add('finished');
     finished.innerHTML = 'Yaaas Kween!';
     body.appendChild(finished);
-    
+
     isBestScore();
 }
 
