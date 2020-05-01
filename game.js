@@ -39,10 +39,7 @@ let card1, card2, firstCard1, firstCard2, secondCard1, secondCard2
 
 function flipCard(card) {
     var pic = card.childNodes[1].childNodes[0].src
-    console.log(pic);
-    console.log(pic[46]);
-    console.log(pic[47]);
-
+    
     if (!card.classList.contains('matched') && !card.classList.contains('first')) {
         addCount();
 
@@ -50,15 +47,15 @@ function flipCard(card) {
 
         if (!flipped) {
             flipped = true;
-            firstCard1 = pic[46];
-            firstCard2 = pic[47];
+            firstCard1 = pic[39];
+            firstCard2 = pic[40];
             card1 = card;
             card1.classList.add('first');
 
         } else {
             flipped = false;
-            secondCard1 = pic[46];
-            secondCard2 = pic[47];
+            secondCard1 = pic[39];
+            secondCard2 = pic[40];
             card2 = card;
             card1.classList.remove('first');
 
