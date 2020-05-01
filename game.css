@@ -65,7 +65,7 @@ body, html {
 .finished {
     position: absolute;
     right: 100px;
-    top: 160px;
+    top: 110px;
     font-size: 90px;
     color: #452162;
     text-shadow: 3px 5px #cd99d6;
@@ -122,14 +122,14 @@ body, html {
 #bestScore {
     position: absolute;
     right: 135px;
-    top: 420px;
+    top: 430px;
     font-size: 60px;
     color: #452162;
 
 }
 #newGame {
     position: absolute;
-    top: 510px;
+    top: 520px;
     right: 180px;
     width: 240px;
     height: 100px;
