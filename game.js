@@ -67,7 +67,6 @@ let card1,
 
 function flipCard(card) {
   var imagePath = card.childNodes[1].childNodes[0].src;
-  console.log(imagePath)
 
   if (
     !card.classList.contains("matched") &&
@@ -79,14 +78,14 @@ function flipCard(card) {
 
     if (!flipped) {
       flipped = true;
-      firstCardFirstLetter = imagePath[79];
-      firstCardSecondLetter = imagePath[80];
+      firstCardFirstLetter = imagePath[52];
+      firstCardSecondLetter = imagePath[53];
       card1 = card;
       card1.classList.add("first");
     } else {
       flipped = false;
-      secondCardFirstLetter = imagePath[79];
-      secondCardSecondLetter = imagePath[80];
+      secondCardFirstLetter = imagePath[52];
+      secondCardSecondLetter = imagePath[53];
       card2 = card;
       card1.classList.remove("first");
       if (
