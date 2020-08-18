@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Memory Game</title>
-    <link rel="shortcut icon" href="brain.png" type="image/icon">
-    <link rel="stylesheet" href="game.css">
+    <link rel="shortcut icon" href="brain.png" type="image/icon" />
+    <link rel="stylesheet" href="game.css" />
     <script src="game.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
-</head>
-
-<body onload="startGame()">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body onload="startGame()">
     <div class="bg">
-        <div id="cardContainer">
-
-
-        </div>
-
-        <div id='count'></div>
-        <div id='bestScore'></div>
-        <div id='newGameButton'>
-            <a href="game.html" id="start"><button id="newGame" onclick="startGame()">New Game</button></a>
-        </div>
-
+      <div id="cardContainer"></div>
+      <div id="count"></div>
+      <div id="bestScore"></div>
+      <div id="newGameButton">
+        <a href="game.html" id="start"
+          ><button id="newGame" onclick="startGame()">New Game</button></a
+        >
+      </div>
     </div>
-</body>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  </body>
 </html>
