@@ -67,6 +67,7 @@ let card1,
 
 function flipCard(card) {
   var imagePath = card.childNodes[1].childNodes[0].src;
+  console.log(imagePath)
 
   if (
     !card.classList.contains("matched") &&
